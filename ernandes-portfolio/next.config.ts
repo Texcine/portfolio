@@ -11,12 +11,6 @@ const nextConfig: NextConfig = {
   output: 'export',
   assetPrefix: assetPrefix,
   basePath: basePath,
-
-  images: {
-    // ESSENCIAL para o next/image funcionar corretamente na exportação estática
-    loader: 'custom',
-    loaderFile: './src/components/Image/loader.ts',
-  },
 };
 
 export default nextConfig;
