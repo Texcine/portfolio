@@ -245,7 +245,7 @@ export default function Home() {
         <section id="sobre" className="max-w-4xl mx-auto px-6 py-20 md:py-28 text-center md:text-left">
           <motion.div {...heroReveal} className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
             <div className="relative flex-shrink-0">
-              <Image src="/pictures/profile.png" alt="Foto de Ernandes Dias" width={240} height={240} className="rounded-full border-4 border-cyan-500 shadow-2xl shadow-cyan-500/40 object-cover" priority/>
+              {/*<Image src="/pictures/profile.png" alt="Foto de Ernandes Dias" width={240} height={240} className="rounded-full border-4 border-cyan-500 shadow-2xl shadow-cyan-500/40 object-cover" priority/>*/}
             </div>
             <div className="max-w-lg">
               <Apresentacao nome="Ernandes Dias" titulo="Game Dev Full‑Stack • Professor" />
